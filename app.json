@@ -7,13 +7,12 @@
         "extension",
         "review"
     ],
-    {
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-ffmpeg"
     }
-  ]
-}
+      ],
+
 
     "repository": "https://github.com/spectra-guys/youtubestreamer",
     "env": {
