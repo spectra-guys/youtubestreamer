@@ -1,0 +1,28 @@
+{
+    "name": "YT Stream",
+    "description": "Stream video to your Youtube Channel.",
+    "keywords": [
+        "youtube",
+        "stream",
+        "extension",
+        "review"
+    ],
+    "repository": "https://github.com/spectra-guys/youtubestreamer",
+    "env": {
+        "YOUTUBE_STREAMKEY": {
+            "description": "Youtube Stream key (found at https://www.youtube.com/live2)",
+            "required": true,
+        },
+        "SOURCE": {
+            "description": "Video Source File",
+            "required": true,
+        },
+    },
+    "stack": "container",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
